@@ -1,0 +1,44 @@
+div{
+    background-repeat: no-repeat;
+    background-size: cover ;   
+    background-position: center center center;
+    background-position: fixed;
+    margin: 0%;
+    padding: 0%;
+}
+video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+a{
+    background-color: rgb(231, 194, 31);
+    border: 15px double skyblue;
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+    font-size: 60px
+
+;
+}
+/* .boton{
+    width: 400px;
+    height: 200px;
+    bottom: 10px;
+    left: 87%;
+    position: fixed;
+} */
+
+/* Boton centrado */
+.boton{
+    width: 400px;
+    height: 100px;
+    bottom: 10px;
+    left: 42%;
+    position: fixed;
+}

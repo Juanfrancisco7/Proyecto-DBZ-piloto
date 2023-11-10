@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.portada{
+    background-image: url("img/portal.gif");
+}
+.portada ,img{
+    background-position: center; /*Posicion de la imagen*/
+    background-size: cover;
+    background-attachment: fixed; /*Hace que la imagen se quede fija*/
+}
+a{ /*La estructura del botom*/
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    background-color: rgb(22, 224, 4);
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    padding: 15px;
+    margin: 20%;
+    left: 100%;
+}
+a:hover{ /*Para que el boton tenga una animacion cuando se pase el mouse por ensima*/
+    background-color: transparent;
+    border: 4px solid rgb(15, 88, 2);
+    color: rgb(0, 73, 16);
+}
+.portada a{ /*Para que el boton este dentro de la imagen*/
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    justify-content: center;
+}
+
+
+
+
+
+/*SE QUItO ESTA PARTE/*
+ /*.portada p{  Para las Palabras de bienvenida*/
+    /*font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(173, 4, 4);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/

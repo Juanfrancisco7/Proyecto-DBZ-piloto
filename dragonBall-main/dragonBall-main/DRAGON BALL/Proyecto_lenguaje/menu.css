@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fondo{
+    background-image: url("img/Portada\ de\ menu.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;   
+    background-position: center center center;
+    background-position: fixed fixed;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+
+}
+.menu1{
+    padding: 85px;
+    position: flex;
+    
+    
+}
+.menu1 :hover{
+    transform: scale(1.12);
+    border: 6px double yellow;
+}

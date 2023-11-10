@@ -1,0 +1,53 @@
+.fondo{
+    background-image: url("img/fondo\ 3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover ;   
+    background-position: center center center;
+    background-position: fixed;
+    margin: 0%;
+    padding: 0%;
+
+}
+.comentario{
+    position: fixed;
+    bottom: 100px;
+    width: 870px;
+    height: 192px;
+    left: 18%;
+    border: 15px double orange;
+    border-radius: 20px;
+    background-image: url("img/bolasxd.gif");
+
+}
+.texto{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 28px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.boton{
+    position: fixed;
+    bottom: 4px;
+    background-color: rgb(50, 154, 240);
+    width: 200px;
+    height: 60px;
+    left: 42%;
+    border: 15px double orange;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 25px;
+    text-decoration-style: none;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+     
+}
+
+.boton:hover{
+    background-color: rgb(252, 240, 76);
+    color: rgb(50, 154, 240);
+    border: 15px double rgb(50, 154, 240);
+    color: rgb(50, 154, 240) ;
+ 
+}
+

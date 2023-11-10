@@ -1,0 +1,69 @@
+/*AQUÍ DEFINIMOS NUESTRO ESTILO UNIVERSAL*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: black;
+}
+
+/*AQUÍ CODIFICAMOS EL CONTENEDOR DE LA BOLITA*/
+.contenedor{
+    padding: 0px; /*contenedor ubicar en el borde superior*/
+    margin: auto; /*contenedor este centrado horizontalmente*/
+    width: 900px; /*Ancho de Contenedor*/
+    height: 530px; /*Altura del Contenedor*/
+    /* background-image: url("img/kakarot-mapa.png"); */
+    border: 5px solid rgb(211, 211, 82); /*Ancho del borde(7px), Efecto tipo de borde(Dashed), Color del borde (#993)*/
+    background-repeat: no-repeat;
+}
+
+/*AQUÍ CODIFICAMOS LA BOLITA*/
+#bolita{
+   width: 50px; /*Ancho de la bolita*/
+   height: 50px;  /*Altura de la bolita*/
+   border-radius: 29px; /*Reducir bordes y dar el toque de bolita*/
+   /*Estos estilos se han colocado despues de crear las funciones en Java Script*/
+   position: absolute;
+   transition: all 0.3s; /*Sensibilidad de la bolita*/
+}
+
+/*AQUÍ CODIFICAMOS LA CABECERA DEL JUEGO*/
+.cabecera{
+    background-image: url("img/descarga.jpg");
+    height: 30px; /*Altura de la cabecera*/
+    width: 270px;
+    margin-top: 30px; /*Distancia del borde superior a la cabecera*/
+    border-bottom: 0px; /*Conm esto eliminamos el estilo de borde que hereda del estilo contenedor*/
+    /*Estos estilos se han colocado despues de crear las funciones en Java Script*/
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 0px;
+}
+.fondo{
+    /* background-image: url("img/905292.png"); */
+    background-repeat: no-repeat;
+    background-size: cover ;   
+    background-position: center center center;
+    background-position: fixed fixed;
+    margin: 0%;
+    padding: 0%;
+}
+.Boton{
+    position: fixed;
+    bottom: 580px;
+    left: 7%;
+}
+.Boton2{
+    position: fixed;
+    bottom: 580px;
+    left: 81%; 
+}
+.Boton:hover{
+    transform: scale(1.12);
+    border: 3px double yellow;
+}
+.Boton2:hover{
+    transform: scale(1.12);
+    border: 3px double yellow;
+}

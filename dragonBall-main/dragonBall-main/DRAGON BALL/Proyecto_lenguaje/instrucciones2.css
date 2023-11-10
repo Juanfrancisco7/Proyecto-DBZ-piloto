@@ -1,0 +1,58 @@
+*{
+     margin: 0%;
+     padding: 0%;
+}
+h1{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.fondo{
+   
+     background-image: url("img/fondo\ 5.png");
+     background-repeat: no-repeat;
+     background-size: cover ;   
+     background-position: center center center;
+     background-position: fixed;
+     margin: 0%;
+     padding: 0%;
+}
+.imagen{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 30px;
+     transition: 0.5s;
+     overscroll-behavior-x: cover;
+}
+.imagen :hover{
+     transform: scale(1.1);
+}
+.botonc{
+     
+     width: 300px;
+     height: 50px;
+     position: fixed;
+     bottom: 25px;
+     left: 87%;
+     overscroll-behavior-x: cover;
+     
+
+}
+.textito{
+     text-align: center;
+     color: white;
+     text-decoration: none none;
+     font-family: 'Chau Philomene';
+
+}
+.botonc :hover{
+     transform: scale(1.1);
+}
+.titulo{
+     background-color: rgb(226, 152, 41);
+     border: 15px double yellow;
+     font-family: 'Chau Philomene';
+     text-align: center;
+}
+
