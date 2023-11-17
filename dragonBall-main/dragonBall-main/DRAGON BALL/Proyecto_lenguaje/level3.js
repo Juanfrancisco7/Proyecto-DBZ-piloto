@@ -43,7 +43,7 @@ function restarTiempo(){
 //Llamamos a la funcion restarTiempo
 setInterval(restarTiempo,1000);
 
-
+//Prueba completa del funcionamiento del juego
 
 const sonidos = document.getElementById('sonido');
 
