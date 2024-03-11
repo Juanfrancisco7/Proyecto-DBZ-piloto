@@ -3,13 +3,12 @@ puntos = 0;
 tiempo = 40; 
 necesario = 30;
 
-//AQUI CONTRIMOS NUESTRAS FUNCIONES
-//AQUI CONTRUIMOS NUESTRA FUNCION sumarpuntos
+//aqui tengo las funciones
 function sumarPuntos(){
     puntos++; //Que suba el puntaje en uno en uno
     document.getElementById("puntos").innerHTML = "Puntos: " + puntos + "/" + necesario + "  Tiempo: ";
 
-    //Aquí contruimos la variable que domina el valor aleatorio dentro del contenedor
+    //Aquíla variable que domina el valor aleatorio dentro del contenedor
     //randNum toma solamente valores enteros (Math,round() y son aleatorios (random))
     randNum = Math.round(Math.random()*400);
     randNum2 = Math.round(Math.random()*400);
