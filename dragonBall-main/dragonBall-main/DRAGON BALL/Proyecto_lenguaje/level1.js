@@ -28,7 +28,7 @@ function sumarPuntos(){
 //Llamamos a la funcion sumarpuntos
 document.getElementById('bolita').addEventListener("mouseover", sumarPuntos);
 
-//Aqui contruimos nuestra función restarTiempo
+//Aqui construimos nuestra función restarTiempo
 function restarTiempo(){
     tiempo--; //aqui hacemos que el tiempo decrezca de 1 en 1 
     document.getElementById("tiempo").innerHTML = tiempo;
